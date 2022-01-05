@@ -2,13 +2,19 @@ import styled from "styled-components/native";
 
 export const Input = styled.TextInput`
     justify-content: center;
-    margin: 8px;
-    padding: 20px;
-    width: 350px;
+    padding: 25px;
+    width: 330px;
     font-size: 16px;
-    shadow-color: #333;
-    shadow-offset: 0 0;
-    shadow-opacity: 0.10;
-    shadow-radius: 2px;
-    elevation: 1;
+    border: 0.5px #2b2b2b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+`
+export const InputPassword = styled.TextInput`
+    justify-content: center;
+    padding: 25px;
+    width: 330px;
+    font-size: 16px;
+    border: 0.5px #2b2b2b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 `
